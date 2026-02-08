@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Fomulário Lindão</title>
+</head>
+
+<body>
+    <form method="">
+        <fieldset>
+            <legend>Formulário</legend>
+
+            <div class="dimensao">
+                <label>E-mail: </label>
+                <input class="input-email" type="email" placeholder="obayo@obayo.com" />
+            </div>
+
+            <div class="dimensao">
+                <label>Curso: </label>
+                <select id="cursos" name="cursos">
+                    <option disabled selected> Selecione uma opção</option>
+                    <option value="si"> Sistema de Informação</option>
+                    <option value="ds"> Desenvolvimento de Sistema</option>
+                </select>
+            </div>
+
+            <div class="dimensao">
+                <label>Nivel de conhecimento:</label>
+                <div>
+                    <input type="radio" id="nBasico" name="nivel" checked />
+                    <label class="label-radio" for="nBasico">Básico</label>
+
+                    <input type="radio" id="nIntermediario" name="nivel" />
+                    <label class="label-radio" for="nIntermediario">Intermediário</label>
+
+                    <input type="radio" id="nAvancado" name="nivel" />
+                    <label class="label-radio" for="nAvancado">Avançado</label>
+                </div>
+            </div>
+
+            <div class="dimensao">
+                <label>Dixe um comentário:</label>
+                <textarea placeholder="Deixe seu comentário...."></textarea>
+            </div>
+
+
+            <input class="botao-enviar" type="submit" value="Enviar" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

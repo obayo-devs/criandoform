@@ -1,0 +1,88 @@
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+fieldset {
+    background-color: #d7d6e8;
+    border: 2px solid #7e7bb6;
+    border-radius: 1em;
+    padding: 2em;
+    width: 20em;
+}
+
+legend,
+label {
+    font-family: "Chau Philomene One", sans-serif;
+}
+
+legend {
+    color: #49476d;
+    font-size: 3em;
+}
+
+label {
+    color: #726fa4;
+    font-size: 1em;
+}
+
+.label-radio {
+    font-weight: 200;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.dimensao {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 12px;
+}
+
+.input-email,
+select,
+textarea {
+    background-color: #b9b7de;
+    border: none;
+    border-radius: 0.5em;
+    color: #726fa4;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.input-email::placeholder,
+textarea::placeholder {
+    font-size: 1.2em;
+    color: #7e7bb6;
+}
+
+select {
+    padding: 1.3em 0.2em;
+    font-size: 1em;
+    color: #49476d;
+}
+
+input[type="radio"] {
+    accent-color: #7e7bb6;
+}
+
+.input-email{
+    padding: 1.3em 0.5em;
+}
+
+textarea {
+    padding: 1.3em 0.5em;
+    height: 5em;
+}
+
+.botao-enviar {
+    width: 16em;
+    border: none;
+    padding: 0.6em;
+    margin-top: 1em;
+    color: #49476d;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    background-color: #e87fad;
+    font: 1.3rem "Chau Philomene One", sans-serif;
+}
