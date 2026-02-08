@@ -124,7 +124,10 @@ Ele é o responsável por **disparar a ação do formulário**, enviando os dado
   https://github.com/obayo-devs/criandoform  
 
 - **Projeto no ar (GitHub Pages):**  
-  https://obayo-devs.github.io/criandoform/  
+  https://obayo-devs.github.io/criandoform/
+
+- **Código-fonte (Codepen):**
+  https://codepen.io/joselainejrs/pen/NWQgNRa
 
 ---
 
